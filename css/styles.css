@@ -64,6 +64,10 @@ body {
     cursor: pointer;
 }
 
+header .current {
+    color: var(--background-color-1)
+}
+
 /*--------HEADER--------*/
 
 .header {
