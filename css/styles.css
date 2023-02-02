@@ -490,6 +490,22 @@ header .current::after {
     display: block;
 }
 
+.gallery-item {
+    position: relative;
+}
+
+.card-top-text {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-gray-color);
+    background: var(--background-color-2);
+    background-blend-mode: soft-light;
+    mix-blend-mode: normal;
+}
+
 .card-content {
     padding: 32px 0px;
     background: var(--primary-white-color);
